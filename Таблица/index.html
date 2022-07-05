@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Таблица</title>
+</head>
+
+<body>
+    <table>
+        <caption>Сводная таблица с данными</caption>
+        <tr>
+            <td></td>
+            <th>2019</th>
+            <th>2020</th>
+            <th>2021</th>
+        </tr>
+        <tr>
+            <td>Золото</td>
+            <td rowspan="2">5643</td>
+            <td>4533</td>
+            <td>7897</td>
+        </tr>
+        <tr>
+            <td>Бриллианты</td>
+            <td>31234</td>
+            <td>5432</td>
+        </tr>
+        <tr>
+            <td>Валюта</td>
+            <td>43533</td>
+            <td colspan="2" style="text-align: center;">34533</td>
+            <!--  На  align = "center" валидатор ругается, курсы устарели( -->
+
+        </tr>
+    </table>
+</body>
+
+</html>
