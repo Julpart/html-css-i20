@@ -14,28 +14,28 @@
     <form action="POST">
         <label for="name">Имя:</label>
         <br>
-        <input id="name" type="text" placeholder="Артем">
+        <input id="name" type="text" placeholder="Артем" required>
         <br><br>
-        <input type="radio" name="lang" id="Java">
+        <input type="radio" name="lang" id="Java" value="Java" required>
         <label for="Java">Java</label>
-        <input type="radio" name="lang" id="C++">
+        <input type="radio" name="lang" id="C++" value="C++">
         <label for="C++">C++</label>
-        <input type="radio" name="lang" id="Python">
+        <input type="radio" name="lang" id="Python" value="Python">
         <label for="Python">Python</label>
-        <input type="radio" name="lang" id="PHP" checked>
+        <input type="radio" name="lang" id="PHP" checked value="PHP">
         <label for="PHP">PHP</label>
-        <input type="radio" name="lang" id="JavaScript">
+        <input type="radio" name="lang" id="JavaScript" value="JavaScrip">
         <label for="JavaScript">JavaScript</label>
         <br><br>
         <label for="info">Дополнительная информация:</label>
         <br>
-        <textarea id="info" rows="5" cols="23" placeholder="Есть опыт программирования на PHP"></textarea>
+        <textarea required id="info" rows="5" cols="23" placeholder="Есть опыт программирования на PHP"></textarea>
         <br><br>
         <label for="secret">Секретное слово:</label>
         <br>
-        <input type="password" value="123456789" id="secret">
+        <input required type="password" value="123456789" id="secret">
         <br><br>
-        <input id="confirm" type="checkbox">
+        <input id="confirm" type="checkbox" value="on" required>
         <label for="confirm">С правилами ознакомился и согласен</label>
         <br><br>
         <input type="submit">
